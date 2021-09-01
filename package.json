@@ -4,7 +4,8 @@
   "description": "",
   "main": "stringLength.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/emmanuellekamwa/Practice-Test/issues"
   },
-  "homepage": "https://github.com/emmanuellekamwa/Practice-Test#readme"
+  "homepage": "https://github.com/emmanuellekamwa/Practice-Test#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
 }
